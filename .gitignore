@@ -3,3 +3,5 @@ bitbake.lock
 cache/
 conf/sanity_info
 tmp/
+downloads/
+sstate-cache/
