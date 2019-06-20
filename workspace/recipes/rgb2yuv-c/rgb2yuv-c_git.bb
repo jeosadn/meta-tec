@@ -16,7 +16,7 @@ SRC_URI = "git://github.com/jeosadn/rgb2yuv-c.git;protocol=https"
 
 # Modify these as desired
 PV = "1.0+git${SRCPV}"
-SRCREV = "1d2c63caa412f327dd8032f49c754a7fb7293741"
+SRCREV = "e871f257a0986abc097137b63e064f02b778257f"
 
 S = "${WORKDIR}/git"
 
