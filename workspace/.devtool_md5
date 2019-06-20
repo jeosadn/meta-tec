@@ -1,0 +1,2 @@
+rgb2yuv-c|recipes/rgb2yuv-c/rgb2yuv-c_git.bb|71e5b52ecbe8020be7979ed6af41d120
+rgb2yuv-c|appends/rgb2yuv-c_git.bbappend|0a06c3d0251267150c46a48be64a5902
