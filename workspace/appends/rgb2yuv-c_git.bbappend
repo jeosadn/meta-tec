@@ -2,4 +2,4 @@ inherit externalsrc
 EXTERNALSRC = "/home/jo/meta-tec/workspace/sources/rgb2yuv-c"
 EXTERNALSRC_BUILD = "/home/jo/meta-tec/workspace/sources/rgb2yuv-c"
 
-# initial_rev: afb29f3c756bc197956dcd088bf2ecd4bca7b7c1
+# initial_rev: cda32d07d82ebda04a437d2293fa68ec977a8e13
