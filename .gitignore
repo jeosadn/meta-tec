@@ -5,4 +5,5 @@ conf/sanity_info
 tmp/
 downloads/
 sstate-cache/
-rgb2yuv-c/
+sources/
+workspace/.devtool_md5
