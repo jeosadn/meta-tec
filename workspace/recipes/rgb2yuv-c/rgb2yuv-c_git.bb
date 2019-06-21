@@ -20,8 +20,6 @@ SRCREV = "master"
 
 S = "${WORKDIR}/git"
 
-FILES_${PN} = "${bindir}/rgb2yuv-c"
-
 # NOTE: this is a Makefile-only piece of software, so we cannot generate much of the
 # recipe automatically - you will need to examine the Makefile yourself and ensure
 # that the appropriate arguments are passed in.
