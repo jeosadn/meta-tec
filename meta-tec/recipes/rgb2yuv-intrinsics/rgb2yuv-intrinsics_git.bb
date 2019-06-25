@@ -25,6 +25,14 @@ S = "${WORKDIR}/git"
 # inherit line
 inherit autotools
 
+do_install_append() {
+   mkdir -p '${WORKDIR}/image/usr/share/rgb2yuv-intrinsics/'
+   install -c -m 644 '${WORKDIR}/image/usr/share/doc/rgb2yuv-intrinsics/README'             '${WORKDIR}/image/usr/share/rgb2yuv-intrinsics/'
+   install -c -m 644 '${WORKDIR}/image/usr/share/doc/rgb2yuv-intrinsics/sample_640x480.jpg' '${WORKDIR}/image/usr/share/rgb2yuv-intrinsics/'
+   install -c -m 644 '${WORKDIR}/image/usr/share/doc/rgb2yuv-intrinsics/sample_640x480.rgb' '${WORKDIR}/image/usr/share/rgb2yuv-intrinsics/'
+   install -c -m 644 '${WORKDIR}/image/usr/share/doc/rgb2yuv-intrinsics/sample_640x480.yuv' '${WORKDIR}/image/usr/share/rgb2yuv-intrinsics/'
+}
+
 # Specify any options you want to pass to the configure script using EXTRA_OECONF:
 EXTRA_OECONF = ""
 
