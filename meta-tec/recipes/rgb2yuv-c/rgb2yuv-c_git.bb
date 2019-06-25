@@ -20,22 +20,11 @@ SRCREV = "master"
 
 S = "${WORKDIR}/git"
 
-# NOTE: this is a Makefile-only piece of software, so we cannot generate much of the
-# recipe automatically - you will need to examine the Makefile yourself and ensure
-# that the appropriate arguments are passed in.
+# NOTE: if this software is not capable of being built in a separate build directory
+# from the source, you should replace autotools with autotools-brokensep in the
+# inherit line
+inherit autotools
 
-do_configure () {
-	# Specify any needed configure commands here
-	:
-}
-
-do_compile () {
-	# You will almost certainly need to add additional arguments here
-	oe_runmake
-}
-
-do_install () {
-	# This is a guess; additional arguments may be required
-	oe_runmake install 'DESTDIR=${D}'
-}
+# Specify any options you want to pass to the configure script using EXTRA_OECONF:
+EXTRA_OECONF = ""
 
