@@ -16,6 +16,7 @@ do_install_append() {
    install -c -m 644 '${WORKDIR}/image/usr/share/doc/rgb2yuv-intrinsics/sample_640x480.jpg'     '${WORKDIR}/image/usr/share/rgb2yuv-intrinsics/'
    install -c -m 644 '${WORKDIR}/image/usr/share/doc/rgb2yuv-intrinsics/sample_640x480.rgb'     '${WORKDIR}/image/usr/share/rgb2yuv-intrinsics/'
    install -c -m 644 '${WORKDIR}/image/usr/share/doc/rgb2yuv-intrinsics/intrinsics_results.pdf' '${WORKDIR}/image/usr/share/rgb2yuv-intrinsics/'
+   install -c -m 644 '${WORKDIR}/image/usr/share/doc/rgb2yuv-intrinsics/image.rgb'              '${WORKDIR}/image/usr/share/rgb2yuv-intrinsics/'
 }
 
 EXTRA_OECONF = ""

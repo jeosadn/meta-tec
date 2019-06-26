@@ -17,6 +17,7 @@ do_install_append() {
    install -c -m 644 '${WORKDIR}/image/usr/share/doc/rgb2yuv-c/sample_640x480.rgb' '${WORKDIR}/image/usr/share/rgb2yuv-c/'
    install -c -m 644 '${WORKDIR}/image/usr/share/doc/rgb2yuv-c/sample_640x480.yuv' '${WORKDIR}/image/usr/share/rgb2yuv-c/'
    install -c -m 644 '${WORKDIR}/image/usr/share/doc/rgb2yuv-c/c_results.pdf'      '${WORKDIR}/image/usr/share/rgb2yuv-c/'
+   install -c -m 644 '${WORKDIR}/image/usr/share/doc/rgb2yuv-c/image.rgb'          '${WORKDIR}/image/usr/share/rgb2yuv-c/'
 }
 
 EXTRA_OECONF = ""
